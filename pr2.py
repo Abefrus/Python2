@@ -4,30 +4,30 @@ b = 9
 
 print(f'Завдання 1: \n a = {a} \n b = {b}')
 
- #2
+#2
 
 print(f'Завдання 2: \n', a<b and a>3, b<10 and a < 10, a>b and b==7, b<a and a<2)
 
 #3
- print(f'Завдання 3: \n', a<b or a>3, b<10 or a < 10, a>b or b<7, b<a or a<2)
+print(f'Завдання 3: \n', a<b or a>3, b<10 or a < 10, a>b or b<7, b<a or a<2)
 
- #4
- var_str = 'Hello World'
- var_str2 = 'hello world'
+#4
+var_str = 'Hello World'
+var_str2 = 'hello world'
 
- print('Завдання 4: \n', var_str==var_str2)
+print('Завдання 4: \n', var_str==var_str2)
 
 #5
 print("Завдання 5: \n")
 
- x= int(input('Введіть число'))
+x= int(input('Введіть число'))
 if x > 0:
-     print('Число більше нуля')
- if x < 0:
-     print('Число менше нуля')
+    print('Число більше нуля')
+if x < 0:
+    print('Число менше нуля')
 
  #6
- print('Завдання 6: \n')
+print('Завдання 6: \n')
 
 if x > 0:
     print('1')
@@ -60,6 +60,7 @@ else:
     print('Число не кратне 5')
 
 #9
+print('Завдання 9')
 fib1 = 0
 fib2 = 1
 n = 20
@@ -73,16 +74,17 @@ while i <= n:
         i += 1
 
 i = 0
+
 while i <= 20:
     if i%2 == 0:
         print(i)
-    i += 1
+        i += 1
 
 i = -1
 while i >= -21:
     if i%3 == 0:
         print(i)
-    i -= 1
+        i -= 1
 
 #10
 gram = 100
